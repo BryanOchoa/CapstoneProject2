@@ -14,8 +14,13 @@ body{
     padding: 10rem 2rem;
 }
 
+.main-title{
+    text-align: center;
+}
+
 .main-title h1{
     font-size: 3rem;
+    justify-items: center;
 }
 
 .main-title p{
@@ -24,7 +29,7 @@ body{
 }
 
 .name{
-    color:#9b4819 
+    color:#9b4819;
 }
 
 .gif{
@@ -52,6 +57,40 @@ body{
 .intro img{
     border-radius: 50%;
 }   
+ 
+/* Skills section */
+
+.skills{
+   padding: 2rem;
+   background-color: #d9d9d9;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+}
+
+.card{
+    margin: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card img{
+    height: 200px;
+}
+
+.card-body h5{
+    font-family: 'open sans', sans-serif;
+    font-size: 1.5rem;
+    color: #9b4819;
+    text-align: left;
+}
+
+.card-body p{
+    font-family: 'open sans', sans-serif;
+    color: #191919;
+    text-align: left;
+}
 
 
 /* Media query for mobile devices */
@@ -83,5 +122,12 @@ body{
         top: 45rem;
         right: 2.5rem; 
         width: 30px; 
+    }
+
+    .skills .row {
+        margin-top: 1rem; 
+    }
+    .skills .col {
+        margin-bottom: 1rem; 
     }
 }
