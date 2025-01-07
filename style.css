@@ -8,10 +8,10 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     text-align: center;
-    padding: 10rem 0;
+    padding: 10rem 2rem;
 }
 
 .main-title h1{
@@ -47,13 +47,18 @@ body{
     width: 80px; 
 }
 
+/*Intro section*/
+
+.intro img{
+    border-radius: 50%;
+}   
+
 
 /* Media query for mobile devices */
 
 @media (max-width: 768px) {
     .title {
-        padding: 5rem 0; 
-        height: 100vh;
+        height: 90vh;
     }
 
     .main-title h1 {
@@ -70,13 +75,13 @@ body{
 
     .code-slash.top-left {
         top: 2.5rem; 
-        left: 1.5rem; 
+        left: 3.5rem; 
         width: 30px; 
     }
 
     .code-slash.top-right {
-        top: 50rem;
-        right: 1.5rem; 
+        top: 45rem;
+        right: 2.5rem; 
         width: 30px; 
     }
 }
