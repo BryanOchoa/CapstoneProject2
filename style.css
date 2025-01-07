@@ -96,13 +96,21 @@ body{
 .contact-me{
     padding: 2rem;
     text-align: center;
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .btn{
     background-color: #9b4819;
     color: white;
 }
+
+/* Footer section */
+.footer{
+    background-color: #9b4819;
+    padding: .5rem;
+}
+
+
 
 
 /* Media query for mobile devices */
