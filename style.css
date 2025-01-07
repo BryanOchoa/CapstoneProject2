@@ -92,6 +92,18 @@ body{
     text-align: left;
 }
 
+/* Contact section */
+.contact-me{
+    padding: 2rem;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.btn{
+    background-color: #9b4819;
+    color: white;
+}
+
 
 /* Media query for mobile devices */
 
