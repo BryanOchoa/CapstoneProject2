@@ -17,7 +17,7 @@ The primary goals for this project are:
 ## Development Process  
 To achieve the project goals, I followed a structured process:  
 
-1. **Design Mockup**: Created a visual prototype of the website using Canva. [View the mockup here](#) (insert link when ready).  
+1. **Design Mockup**: Created a visual prototype of the website using Canva. [View the mockup here](https://lehotel1.my.canva.site/hello-i-am-bryan) (insert link when ready).  
 2. **Initial Setup**:  
    - Created a basic HTML boilerplate.  
    - Initialized a Git repository and pushed the initial setup to GitHub.  
