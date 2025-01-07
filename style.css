@@ -7,13 +7,29 @@ body{
 
 /*title section*/
 
+.gradient-background {
+    background: linear-gradient(300deg, #9b4819, #9b4819, #f4f1e8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
 .title{
-    background-color: #d9d9d9 ;
     height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
-
     align-items: center;
     text-align: center;
     padding: 10rem 2rem;
@@ -34,7 +50,7 @@ body{
 }
 
 .name{
-    color:#9b4819;
+    color:#f4f1e8;
 }
 
 .gif{
